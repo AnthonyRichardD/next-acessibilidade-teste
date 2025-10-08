@@ -180,15 +180,3 @@ html.contrast-high.dark {
   --input: oklch(0.15 0 0);
   --ring: oklch(1 0 0);
 }
-
-div[vw] {
-  display: block !important;
-}
-
-/*
-  Garante também que o botão interno esteja visível,
-  caso ele também seja afetado.
-*/
-div[vw-access-button] {
-  display: flex !important;
-}

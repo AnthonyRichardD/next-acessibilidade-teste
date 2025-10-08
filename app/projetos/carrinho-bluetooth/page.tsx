@@ -98,7 +98,7 @@ export default function CarrinhoBluetooth() {
                   <li>
                     No campo &quot;URLs Adicionais para Gerenciadores de
                     Placas&quot;, cole o seguinte link:
-                    <code className="block mt-2 p-2 bg-muted rounded text-sm">
+                    <code className="block mt-2 p-2 bg-muted rounded text-sm overflow-x-scroll">
                       https://dl.espressif.com/dl/package_esp32_index.json
                     </code>
                   </li>
